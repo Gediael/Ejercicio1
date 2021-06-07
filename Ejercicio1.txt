@@ -1,0 +1,15 @@
+Ejercicio 1
+Inicio
+Definir x,n, contador como entero;
+	Escribir "Escibir un numero de 1 a 100";
+	leer n;
+	contador = 0;
+	para x = n hasta 100 hacer
+		si x mod 2 == 0 entonces 
+			contador = contador +1
+			Escribrir x
+		finsi
+	finpara
+
+	Escribir "El total de numeros pares es: " contador;
+Fin.
